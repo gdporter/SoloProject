@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(118, 204, 233);
+    background-image: linear-gradient(rgb(118, 204, 233), white);
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  nav {
+    background-color: lightslategray;
+    display: block;
+    position: fixed;
+    top: 32vh;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+  }
+  nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+  }
+  li a:hover {
+      background-color: darkgray;
+  }
+  #brand {
+    float: left;
+  }
+  .nav-link {
+    color: darkorange;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+  }
+  .nav-link:hover {
+    color: darkslateblue;
+    font-weight: bold;
+  }
+  #brand .nav-link {
+    color: darkslateblue;
+    font-size: 14pt;
+  }
+  #brand .nav-link:hover {
+    color: darkorange;
+  }
+  h1 {
+    font-size: 60pt;
+    font-family: 'Acme', sans-serif;
+  }
+  #home {
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+    background: url('https://images.unsplash.com/flagged/photo-1574945873086-c374f73867ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80') center 75% no-repeat fixed;
+    background-size: cover;
+  }
+  .header-tag {
+    text-align: center;
+    color: darkorange;
+    text-shadow: 3px 3px 3px black
+  }
+  h3.header-tag {
+    margin-top: -30px;
+    font-size: 18pt;
+  }
+  h2 {
+      font-family: 'Acme', sans-serif;
+      color: darkorange;
+  }
+  .main {
+      text-align: center;
+  }
+  #about {
+      margin-top: 50px;
+      display: inline-block;
+  }
+  #about-picture {
+      width: 30vw;
+      float: left;
+  }
+  #profile-pic {
+      height: 300px;
+      width: 300px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 5px 5px 5px black;
+  }
+  #about-content {
+      width: 50vw;
+      float: inline-start;
+  }
